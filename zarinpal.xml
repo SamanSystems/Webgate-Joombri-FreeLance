@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+        <fieldset name="settings">
+            <field
+                    type="text"
+                    name="zpMerchantID"
+                    id="zpMerchantID"
+                    label="COM_JBLANCE_zarinpal_TERMINAL_ID"
+                    description="COM_JBLANCE_zarinpal_TERMINAL_ID_EXAMPLE"
+                    size="60"
+                    default="xxxxxx-xxxxxx-xxxxxx-xxxxx-xxxx"
+                    maxLength="255"
+                    class="required" />
+            
+            <field
+                    type="text"
+                    name="zpCurrency"
+                    id="zpCurrency"
+                    label="COM_JBLANCE_zarinpal_CURRENCY"
+                    description="COM_JBLANCE_zarinpal_CURRENCY_EXAMPLE"
+                    size="4"
+                    default="RIAL"
+                    maxLength="255"
+                    class="required" />
+        </fieldset>
+</form>
